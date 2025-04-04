@@ -7,14 +7,14 @@ import static org.junit.Assert.*;
 
 public class Main {
     public static void main(String[] args) {
-        /*class PersonTest {
+        class PersonTest {
 
             @Test
             public void testGetSummary() {
                 Person person = new Person(1, "Martin", "Josefsson", "martin.josefsson@test.test");
                 assertEquals("{id: 1, name: Martin Josefsson, email: martin.josefsson@test.test}", person.getSummary());
             }
-        }*/
+        }
 
         /*class TodoItemTest {
 
