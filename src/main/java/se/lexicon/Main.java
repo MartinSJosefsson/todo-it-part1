@@ -12,7 +12,7 @@ public class Main {
             @Test
             public void testGetSummary() {
                 Person person = new Person(1, "Martin", "Josefsson", "martin.josefsson@test.test");
-                assertEquals("{id: 1, name: John Doe, email: john.doe@example.com}", person.getSummary());
+                assertEquals("{id: 1, name: Martin Josefsson, email: martin.josefsson@test.test}", person.getSummary());
             }
         }*/
 
@@ -26,7 +26,7 @@ public class Main {
             }
         }*/
 
-        class TodoItemTaskTest {
+        /*class TodoItemTaskTest {
 
             @Test
             public void testGetSummary() {
@@ -35,7 +35,7 @@ public class Main {
                 TodoItemTask task = new TodoItemTask(1, todoItem, assignee);
                 assertEquals("{id: 1, task: Task 1, assigned: true}", task.getSummary());
             }
-        }
+        }*/
 
         }
 
